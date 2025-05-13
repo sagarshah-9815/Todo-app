@@ -40,7 +40,7 @@ Based on the application's current state, the following features are implemented
 
 
 
-<img src="https://github.com/user-attachments/assets/37924086-f572-43c8-b1b0-eef4ab08f60a" alt="Screenshot_2025-05-12-21-16-16-550_com example todo - Add task dialog" width="300">
+
 
 ---
 
