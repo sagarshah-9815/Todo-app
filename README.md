@@ -1,30 +1,77 @@
-# todo
+# Todo App - Flutter
 
-A Flutter project implementing a simple Todo application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A cross-platform todo and notes application built with Flutter.
 
 ## Features
 
-Based on the application's current state, the following features are implemented:
+- Create, edit, and delete todos
+- Organize todos with categories/tags
+- Notes functionality with rich text support
+- Dark/Light theme support
+- Trash system for deleted items
+- Multi-platform support:
+  - Android
+  - iOS
+  - Web
+  - Windows
+  - macOS
+  - Linux
 
-- **Add Tasks:** Users can add new tasks with a title and a description.
-- **View Tasks:** All tasks are displayed in a list.
-- **Edit Tasks:** Existing tasks can be modified (title and description).
-- **Delete Tasks:** Tasks can be removed from the list with a confirmation prompt.
-- **Mark as Complete/Incomplete:** Tasks can be marked as completed, and their status is visually updated in the list.
-- **Empty State:** A message is displayed when there are no tasks to show.
+## Getting Started
+
+### Prerequisites
+- Flutter SDK (version 3.0 or higher)
+- Dart SDK
+- Android Studio/Xcode (for mobile development)
+- VS Code (recommended)
+
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/todo-app.git
+   ```
+2. Navigate to project directory:
+   ```bash
+   cd todo-app
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+### Running the App
+- For Android:
+  ```bash
+  flutter run -d android
+  ```
+- For iOS:
+  ```bash
+  flutter run -d ios
+  ```
+- For web:
+  ```bash
+  flutter run -d chrome
+  ```
+
+## Project Structure
+```
+lib/
+├── main.dart          # App entry point
+├── models/            # Data models
+├── providers/         # State management
+├── screens/           # UI screens
+├── services/          # Business logic
+```
+
+## Built With
+- Flutter - UI toolkit
+- Dart - Programming language
+- Provider - State management
+- Hive - Local storage
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 
 ## Screenshots
 
